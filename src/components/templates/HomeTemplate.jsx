@@ -3,8 +3,8 @@ import { BannerHome, Header } from "../../index";
 import { useState, useEffect } from "react";
 import { ListarEmpresas } from "../../index"; // importa la función que hicimos
 
-import { useAuthStore } from "../../store/authStore";     // ajusta el path
-import { useEmpresaStore } from "../../store/empresaStore"; // ajusta el path
+import { useAuthStore } from "../../store/AuthStore";     // ajusta el path
+import { useEmpresaStore } from "../../store/EmpresaStore"; // ajusta el path
 
 export function HomeTemplate() {
   const [state, setState] = useState(false);
